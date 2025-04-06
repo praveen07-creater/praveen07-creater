@@ -49,7 +49,7 @@
 ### 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://github.com/praveen07-creater/praveen07-creater/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://github.com/praveen07-creater/praveen07-creater/raw/output/github-contribution-grid-snake.svg" alt="snake gif" />
 </p>
 
 ---
