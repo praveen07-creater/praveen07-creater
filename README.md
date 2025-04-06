@@ -70,7 +70,7 @@ Want to grow, collaborate, and connect with other techies?
 Join the **Coder’s Hub Discord Server** 🌟
 
 <p align="center">
-  <a href="https://discord.com/invite/https://discord.gg/VQjQJu6XT9">
+  <a href="https://discord.com/invite/https://discord.gg/6cpP3Qm5">
     <img src="https://img.shields.io/badge/Join%20Us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
 </p>
