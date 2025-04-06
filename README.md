@@ -2,17 +2,17 @@
 <h3 align="center">🚀 Data Science Enthusiast | Python Developer | Future US Data Scientist</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2300F700&size=25&center=true&vCenter=true&lines=Learning+Every+Minute+⏳;Future+Data+Scientist+in+the+US🇺🇸;Integrated+MTech+@+VIT+Bhopal📚;Always+Curious+%26+Creative✨" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2300F700&size=25&center=true&vCenter=true&lines=Learning+Every+Minute+⏳;Future+Data+Scientist+in+the+US🇺🇸;BTech+@+VIT+Bhopal📚;Always+Curious+%26+Creative✨" />
 </p>
 
 ---
 
 ### 🧑‍💻 About Me
-- 🎓 I'm an Integrated MTech Data Science student at VIT Bhopal  
+- 🎓 I'm a BTech Data Science student at VIT Bhopal  
 - 🛠️ Currently working on a Fake News Detection project  
-- 💡 Passionate about AI, ML, and solving real-world problems  
-- 🌱 Lifelong learner and creative thinker  
-- 🎨 Hobbies: Drawing, storytelling, exploring new tech  
+- 💡 Passionate about AI, ML, and real-world problem solving  
+- 🌱 Always learning something new  
+- 🧠 Hobbies: Drawing, storytelling, and building cool projects  
 - 🌍 Dream: Work and settle in the US with my family 🇺🇸  
 
 ---
@@ -41,7 +41,6 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=praveen07-creater&show_icons=true&theme=radical" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=praveen07-creater&theme=radical" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=praveen07-creater&layout=compact&theme=radical" />
 </p>
 
 ---
@@ -49,7 +48,11 @@
 ### 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://github.com/praveen07-creater/praveen07-creater/raw/output/github-contribution-grid-snake.svg" alt="snake gif" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/praveen07-creater/praveen07-creater/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/praveen07-creater/praveen07-creater/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/praveen07-creater/praveen07-creater/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 ---
@@ -79,19 +82,24 @@ Join the **Coder’s Hub Discord Server** 🌟
 
 > 🧠 “Tech isn't just what I use — it's how I express creativity in logic.”  
 > — *Praveen Kumar*
+name: Generate Snake Contribution Grid
 
-<!--
-**praveen07-creater/praveen07-creater** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: praveen07-creater
+          outputs: |
+            ./output/github-contribution-grid-snake.svg
+            ./output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
