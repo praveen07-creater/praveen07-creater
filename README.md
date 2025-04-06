@@ -2,8 +2,9 @@
 <h3 align="center">🚀 Data Science Enthusiast | Python Developer | Future US Data Scientist</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2300F700&size=25&center=true&vCenter=true&lines=Learning+Every+Minute+⏳;Future+Data+Scientist+in+the+US🇺🇸;Integrated+MTech+@+VIT+Bhopal📚;Always+Curious+%26+Creative✨" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F700&size=25&center=true&vCenter=true&width=600&height=100&lines=Learning+Every+Minute+⏳;Future+Data+Scientist+in+the+US🇺🇸;Integrated+MTech+Student+@+VIT+Bhopal📚;Always+Curious+%26+Creative✨" />
 </p>
+
 
 ---
 
