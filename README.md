@@ -8,7 +8,7 @@
 ---
 
 ### 🧑‍💻 About Me
-- 🎓 I'm a BTech Data Science student at VIT Bhopal  
+- 🎓 I'm a integrated Mtech Data Science student at VIT Bhopal  
 - 🛠️ Currently working on a Fake News Detection project  
 - 💡 Passionate about AI, ML, and real-world problem solving  
 - 🌱 Always learning something new  
@@ -48,11 +48,7 @@
 ### 🐍 Contribution Graph
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/praveen07-creater/praveen07-creater/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/praveen07-creater/praveen07-creater/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/praveen07-creater/praveen07-creater/output/github-contribution-grid-snake.svg" />
-  </picture>
+  <img src="https://github.com/platane/snk/raw/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -73,7 +69,7 @@ Want to grow, collaborate, and connect with other techies?
 Join the **Coder’s Hub Discord Server** 🌟
 
 <p align="center">
-  <a href="https://discord.gg/6cpP3Qm5">
+  <a href="https://discord.com/invite/https://discord.gg/6cpP3Qm5">
     <img src="https://img.shields.io/badge/Join%20Us%20on%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
 </p>
@@ -82,24 +78,4 @@ Join the **Coder’s Hub Discord Server** 🌟
 
 > 🧠 “Tech isn't just what I use — it's how I express creativity in logic.”  
 > — *Praveen Kumar*
-name: Generate Snake Contribution Grid
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  push:
-    branches: [main]
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate Snake SVG
-        uses: Platane/snk@v3
-        with:
-          github_user_name: praveen07-creater
-          outputs: |
-            ./output/github-contribution-grid-snake.svg
-            ./output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
